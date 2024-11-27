@@ -10,9 +10,9 @@ import PrivateRoute from "./components/privateRoute";
 
 function App() {
 
-    // React.useEffect(() => {
-    //     localStorage.removeItem("token");
-    // }, []);
+    React.useEffect(() => {
+        localStorage.removeItem("token");
+    }, []);
 
     const isAuthenticated = !!localStorage.getItem("token");
 
