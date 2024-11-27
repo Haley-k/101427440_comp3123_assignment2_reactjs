@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #1497b8;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+button:hover {
+    filter: brightness(.7);
+    cursor: pointer;
+}
+
+.addEmp-button {
+    background-color: #007bff;
+}
+
+.logOut-button {
+    background-color: gray;
+}
+
+.save-buttons {
+    background-color: green;
+}
+
+.cancel-buttons, .delete-buttons {
+    background-color: #d50202;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table tr:nth-child(even) {
+    background-color: #e8e8e8; 
+}
+
+table tr:nth-child(odd) {
+    background-color: #ffffff; 
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+form input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    gap: 10px;
+}
+
+.search-form input {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+
+.search-form button {
+    width: auto;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+} 
+
+.top-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 20px;
+    max-width: 800px;
+}
+
+.top-buttons button {
+    margin: 5px;
+}
