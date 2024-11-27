@@ -15,6 +15,12 @@ const Signup = () => {
             const response = await api.post("/api/v1/user/signup", { username, email, password });
             alert("Signup successful!");
             console.log(response.data);
+
+            setUsername("");
+            setEmail("");
+            setPassword("");
+
+            navigate("/login");
         } catch (error) {
             alert("Signup failed!");
             console.error(error.response ? error.response.data : error.message);
