@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "https://comp3123-assignment2.vercel.app/",
+    baseURL: "http://localhost:8000",
 });
 
 api.interceptors.request.use(
